@@ -1,0 +1,29 @@
+{
+  "id": "-5QUPWHNasxCuZha5Tb9u",
+  "projectId": "6503e5cfca6ccf1bac74f2c5",
+  "name": "Toggle",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "UI",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "serviceName": "Toggle visibility",
+          "screenId": "HKWoll1PJpmZnUthNxzWS",
+          "component": [{ "id": "jkFm-k7AZaKrkXV0c5WNm", "name": "Text view" }],
+          "componentId": ["jkFm-k7AZaKrkXV0c5WNm"],
+          "visibility": false
+        },
+        "returns": []
+      }
+    }
+  ],
+  "gitBranchName": "master",
+  "csrf": "0.vi0jntggju_pgvEIHzFUyEmT2J1hQuD",
+  "_id": "q6upAAVHHWrlGW1M5hwjZ",
+  "updatedAt": "9/20/2023",
+  "createdAt": "9/20/2023",
+  "createdBy": "unify",
+  "updatedBy": "unify"
+}

@@ -16,7 +16,7 @@
         "hideNavbar": true,
         "cornerRadius": [0, 0, 0, 0]
       },
-      "componentId": ["jkFm-k7AZaKrkXV0c5WNm", "8G7TLtreBChLS2MB3N0L-"]
+      "componentId": ["s6xzT8aMosoqThLDbQ5TW"]
     },
     "group": "Layout",
     "type": "CONSTRAINT",
@@ -30,66 +30,127 @@
     "component": { "content": "Constraint Layout", "type": "CONSTRAINT" },
     "gridProps": [
       {
-        "id": "jkFm-k7AZaKrkXV0c5WNm",
-        "status": "ACTIVE",
-        "_id": "61dec5ad077814a0f374d9f3",
-        "name": "Text view",
+        "id": "s6xzT8aMosoqThLDbQ5TW",
+        "type": "GLIST",
+        "name": "Grid List View",
+        "component": { "content": "Grid List View", "type": "GLIST" },
         "attributes": {
-          "name": "Text view",
-          "layoutProperties": {
-            "textSize": 18,
-            "layout_width": "match_parent",
-            "layout_height": "60",
-            "textColor": "#000000",
-            "text": "Start Now",
-            "cornerRadius": [0, 0, 0, 0]
-          }
-        },
-        "icon": "FaTextWidth",
-        "group": "Form",
-        "type": "sidebarItem",
-        "updatedAt": "23-Aug-2021",
-        "createdAt": "23-Aug-2021",
-        "order": 20,
-        "version": "1.0.0",
-        "isLatest": true,
-        "projectType": "mobile",
-        "component": { "content": "Text view", "type": "TEXTVIEW" },
-        "events": [],
-        "path": "0-0"
-      },
-      {
-        "id": "8G7TLtreBChLS2MB3N0L-",
-        "status": "ACTIVE",
-        "_id": "61dec753077814a0f374d9f6",
-        "name": "Button",
-        "attributes": {
-          "name": "Button",
+          "name": "Grid List View",
+          "bindingKey": "test",
           "layoutProperties": {
             "layout_width": "match_parent",
-            "layout_height": "40",
-            "text": "Start Now",
-            "textSize": 10,
-            "textColor": "#000000",
-            "textStyle": "bold",
-            "textAlignment": "center",
+            "column": 1,
+            "layout_height": "100",
             "cornerRadius": [0, 0, 0, 0],
-            "background": "#9BB93B",
-            "clickable": true
-          }
+            "borderWidth": 3,
+            "borderColor": "#000000",
+            "rows": [{ "id": "uvCXEbC29hnadW6CYa3XH" }]
+          },
+          "componentId": []
         },
-        "icon": "FaBimobject",
-        "group": "Form",
-        "type": "sidebarItem",
-        "updatedAt": "23-Aug-2021",
-        "createdAt": "23-Aug-2021",
-        "order": 20,
-        "version": "1.0.0",
-        "isLatest": true,
-        "projectType": "mobile",
-        "component": { "content": "Button", "type": "BUTTON" },
         "events": [],
-        "path": "0-1"
+        "path": "0-0",
+        "gridProps": [
+          {
+            "id": "uvCXEbC29hnadW6CYa3XH",
+            "name": "GLIST",
+            "path": "0-0-0",
+            "type": "GLISTITEM",
+            "updatedTimestamp": "0000-00-00T00:00:00+00:00",
+            "gridProps": [
+              {
+                "id": "Z_nsS9-54oo6vPOdyvK8E",
+                "status": "ACTIVE",
+                "_id": "61ded1e9077814a0f374da06",
+                "name": "Input Text View",
+                "attributes": {
+                  "name": "Input Text View",
+                  "layoutProperties": {
+                    "layout_width": "100",
+                    "layout_height": "40",
+                    "layout_marginLeft": 0,
+                    "layout_marginRight": 0,
+                    "layout_marginTop": 0,
+                    "layout_marginBottom": 0,
+                    "text": "name:",
+                    "textSize": 10,
+                    "placeHolderText": "name:",
+                    "placeHolderTextColor": "",
+                    "numberOfLines": 1,
+                    "textColor": "#000000",
+                    "style": "",
+                    "textStyle": "bold",
+                    "textAlignment": "center",
+                    "centerY": "_parent",
+                    "src": "",
+                    "keyboardType": "textfield",
+                    "background": "",
+                    "scroll": "",
+                    "selectable": "",
+                    "cornerRadius": [0, 0, 0, 0]
+                  },
+                  "bindingKey": "test"
+                },
+                "icon": "FaMoneyCheck",
+                "group": "Form",
+                "type": "sidebarItem",
+                "updatedAt": "23-Aug-2021",
+                "createdAt": "23-Aug-2021",
+                "order": 1,
+                "version": "1.0.0",
+                "isLatest": true,
+                "projectType": "mobile",
+                "component": {
+                  "content": "Input Text View",
+                  "type": "INPUTTEXTVIEW"
+                },
+                "path": "0-0-0-0"
+              },
+              {
+                "id": "_Ef6AVhZW_5HAwRFMWTaN",
+                "status": "ACTIVE",
+                "_id": "61dec753077814a0f374d9f6",
+                "name": "Button",
+                "attributes": {
+                  "name": "Button",
+                  "layoutProperties": {
+                    "layout_width": "match_parent",
+                    "layout_height": "40",
+                    "text": "Start Now",
+                    "textSize": 10,
+                    "textColor": "#000000",
+                    "textStyle": "bold",
+                    "textAlignment": "center",
+                    "cornerRadius": [0, 0, 0, 0],
+                    "background": "#9BB93B",
+                    "clickable": true
+                  },
+                  "bindingKey": "test"
+                },
+                "icon": "FaBimobject",
+                "group": "Form",
+                "type": "sidebarItem",
+                "updatedAt": "23-Aug-2021",
+                "createdAt": "23-Aug-2021",
+                "order": 20,
+                "version": "1.0.0",
+                "isLatest": true,
+                "projectType": "mobile",
+                "component": { "content": "Button", "type": "BUTTON" },
+                "events": [],
+                "path": "0-0-0-1"
+              }
+            ],
+            "attributes": {
+              "componentId": [],
+              "layoutProperties": {
+                "layout_height": "100",
+                "layout_width": "match_parent",
+                "clickable": true
+              }
+            }
+          }
+        ]
       }
     ],
     "subType": "screen",
@@ -125,36 +186,217 @@
         "component": { "content": "Constraint Layout", "type": "CONSTRAINT" },
         "gridProps": [
           {
-            "id": "jkFm-k7AZaKrkXV0c5WNm",
-            "status": "ACTIVE",
-            "_id": "61dec5ad077814a0f374d9f3",
-            "name": "Text view",
+            "id": "s6xzT8aMosoqThLDbQ5TW",
+            "type": "GLIST",
+            "name": "Grid List View",
+            "component": { "content": "Grid List View", "type": "GLIST" },
             "attributes": {
-              "name": "Text view",
+              "name": "Grid List View",
+              "bindingKey": "test",
               "layoutProperties": {
-                "textSize": 18,
                 "layout_width": "match_parent",
-                "layout_height": "60",
-                "textColor": "#000000",
-                "text": "Start Now",
-                "cornerRadius": [0, 0, 0, 0]
-              }
+                "column": 1,
+                "layout_height": "100",
+                "cornerRadius": [0, 0, 0, 0],
+                "borderWidth": 3,
+                "borderColor": "#000000",
+                "rows": [{ "id": "uvCXEbC29hnadW6CYa3XH" }]
+              },
+              "componentId": []
             },
-            "icon": "FaTextWidth",
+            "events": [],
+            "path": "0-0",
+            "gridProps": [
+              {
+                "id": "uvCXEbC29hnadW6CYa3XH",
+                "name": "GLIST",
+                "path": "0-0-0",
+                "type": "GLISTITEM",
+                "updatedTimestamp": "0000-00-00T00:00:00+00:00",
+                "gridProps": [
+                  {
+                    "id": "Z_nsS9-54oo6vPOdyvK8E",
+                    "status": "ACTIVE",
+                    "_id": "61ded1e9077814a0f374da06",
+                    "name": "Input Text View",
+                    "attributes": {
+                      "name": "Input Text View",
+                      "layoutProperties": {
+                        "layout_width": "100",
+                        "layout_height": "40",
+                        "layout_marginLeft": 0,
+                        "layout_marginRight": 0,
+                        "layout_marginTop": 0,
+                        "layout_marginBottom": 0,
+                        "text": "name:",
+                        "textSize": 10,
+                        "placeHolderText": "name:",
+                        "placeHolderTextColor": "",
+                        "numberOfLines": 1,
+                        "textColor": "#000000",
+                        "style": "",
+                        "textStyle": "bold",
+                        "textAlignment": "center",
+                        "centerY": "_parent",
+                        "src": "",
+                        "keyboardType": "textfield",
+                        "background": "",
+                        "scroll": "",
+                        "selectable": "",
+                        "cornerRadius": [0, 0, 0, 0]
+                      },
+                      "bindingKey": "test"
+                    },
+                    "icon": "FaMoneyCheck",
+                    "group": "Form",
+                    "type": "sidebarItem",
+                    "updatedAt": "23-Aug-2021",
+                    "createdAt": "23-Aug-2021",
+                    "order": 1,
+                    "version": "1.0.0",
+                    "isLatest": true,
+                    "projectType": "mobile",
+                    "component": {
+                      "content": "Input Text View",
+                      "type": "INPUTTEXTVIEW"
+                    },
+                    "path": "0-0-0-0"
+                  },
+                  {
+                    "id": "_Ef6AVhZW_5HAwRFMWTaN",
+                    "status": "ACTIVE",
+                    "_id": "61dec753077814a0f374d9f6",
+                    "name": "Button",
+                    "attributes": {
+                      "name": "Button",
+                      "layoutProperties": {
+                        "layout_width": "match_parent",
+                        "layout_height": "40",
+                        "text": "Start Now",
+                        "textSize": 10,
+                        "textColor": "#000000",
+                        "textStyle": "bold",
+                        "textAlignment": "center",
+                        "cornerRadius": [0, 0, 0, 0],
+                        "background": "#9BB93B",
+                        "clickable": true
+                      },
+                      "bindingKey": "test"
+                    },
+                    "icon": "FaBimobject",
+                    "group": "Form",
+                    "type": "sidebarItem",
+                    "updatedAt": "23-Aug-2021",
+                    "createdAt": "23-Aug-2021",
+                    "order": 20,
+                    "version": "1.0.0",
+                    "isLatest": true,
+                    "projectType": "mobile",
+                    "component": { "content": "Button", "type": "BUTTON" },
+                    "events": [],
+                    "path": "0-0-0-1"
+                  }
+                ],
+                "attributes": {
+                  "componentId": [],
+                  "layoutProperties": {
+                    "layout_height": "100",
+                    "layout_width": "match_parent",
+                    "clickable": true
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "subType": "screen"
+      }
+    ],
+    "projectId": "6503e5cfca6ccf1bac74f2c5",
+    "gitBranchName": "master",
+    "_id": "HKWoll1PJpmZnUthNxzWS",
+    "createdBy": "unify",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "s6xzT8aMosoqThLDbQ5TW",
+    "type": "GLIST",
+    "name": "Grid List View",
+    "component": { "content": "Grid List View", "type": "GLIST" },
+    "attributes": {
+      "name": "Grid List View",
+      "bindingKey": "test",
+      "layoutProperties": {
+        "layout_width": "match_parent",
+        "column": 1,
+        "layout_height": "100",
+        "cornerRadius": [0, 0, 0, 0],
+        "borderWidth": 3,
+        "borderColor": "#000000",
+        "rows": [{ "id": "uvCXEbC29hnadW6CYa3XH" }]
+      },
+      "componentId": ["uvCXEbC29hnadW6CYa3XH"]
+    },
+    "events": [],
+    "path": "0-0",
+    "gridProps": [
+      {
+        "id": "uvCXEbC29hnadW6CYa3XH",
+        "name": "GLIST",
+        "path": "0-0-0",
+        "type": "GLISTITEM",
+        "updatedTimestamp": "0000-00-00T00:00:00+00:00",
+        "gridProps": [
+          {
+            "id": "Z_nsS9-54oo6vPOdyvK8E",
+            "status": "ACTIVE",
+            "_id": "61ded1e9077814a0f374da06",
+            "name": "Input Text View",
+            "attributes": {
+              "name": "Input Text View",
+              "layoutProperties": {
+                "layout_width": "100",
+                "layout_height": "40",
+                "layout_marginLeft": 0,
+                "layout_marginRight": 0,
+                "layout_marginTop": 0,
+                "layout_marginBottom": 0,
+                "text": "name:",
+                "textSize": 10,
+                "placeHolderText": "name:",
+                "placeHolderTextColor": "",
+                "numberOfLines": 1,
+                "textColor": "#000000",
+                "style": "",
+                "textStyle": "bold",
+                "textAlignment": "center",
+                "centerY": "_parent",
+                "src": "",
+                "keyboardType": "textfield",
+                "background": "",
+                "scroll": "",
+                "selectable": "",
+                "cornerRadius": [0, 0, 0, 0]
+              },
+              "bindingKey": "test"
+            },
+            "icon": "FaMoneyCheck",
             "group": "Form",
             "type": "sidebarItem",
             "updatedAt": "23-Aug-2021",
             "createdAt": "23-Aug-2021",
-            "order": 20,
+            "order": 1,
             "version": "1.0.0",
             "isLatest": true,
             "projectType": "mobile",
-            "component": { "content": "Text view", "type": "TEXTVIEW" },
-            "events": [],
-            "path": "0-0"
+            "component": {
+              "content": "Input Text View",
+              "type": "INPUTTEXTVIEW"
+            },
+            "path": "0-0-0-0"
           },
           {
-            "id": "8G7TLtreBChLS2MB3N0L-",
+            "id": "_Ef6AVhZW_5HAwRFMWTaN",
             "status": "ACTIVE",
             "_id": "61dec753077814a0f374d9f6",
             "name": "Button",
@@ -171,7 +413,8 @@
                 "cornerRadius": [0, 0, 0, 0],
                 "background": "#9BB93B",
                 "clickable": true
-              }
+              },
+              "bindingKey": "test"
             },
             "icon": "FaBimobject",
             "group": "Form",
@@ -184,52 +427,401 @@
             "projectType": "mobile",
             "component": { "content": "Button", "type": "BUTTON" },
             "events": [],
-            "path": "0-1"
+            "path": "0-0-0-1"
           }
         ],
-        "subType": "screen"
+        "attributes": {
+          "componentId": [],
+          "layoutProperties": {
+            "layout_height": "100",
+            "layout_width": "match_parent",
+            "clickable": true
+          }
+        }
       }
     ],
+    "layout": [
+      {
+        "id": "s6xzT8aMosoqThLDbQ5TW",
+        "type": "GLIST",
+        "name": "Grid List View",
+        "component": { "content": "Grid List View", "type": "GLIST" },
+        "attributes": {
+          "name": "Grid List View",
+          "bindingKey": "test",
+          "layoutProperties": {
+            "layout_width": "match_parent",
+            "column": 1,
+            "layout_height": "100",
+            "cornerRadius": [0, 0, 0, 0],
+            "borderWidth": 3,
+            "borderColor": "#000000",
+            "rows": [{ "id": "uvCXEbC29hnadW6CYa3XH" }]
+          },
+          "componentId": []
+        },
+        "events": [],
+        "path": "0-0",
+        "gridProps": [
+          {
+            "id": "uvCXEbC29hnadW6CYa3XH",
+            "name": "GLIST",
+            "path": "0-0-0",
+            "type": "GLISTITEM",
+            "updatedTimestamp": "0000-00-00T00:00:00+00:00",
+            "gridProps": [
+              {
+                "id": "Z_nsS9-54oo6vPOdyvK8E",
+                "status": "ACTIVE",
+                "_id": "61ded1e9077814a0f374da06",
+                "name": "Input Text View",
+                "attributes": {
+                  "name": "Input Text View",
+                  "layoutProperties": {
+                    "layout_width": "100",
+                    "layout_height": "40",
+                    "layout_marginLeft": 0,
+                    "layout_marginRight": 0,
+                    "layout_marginTop": 0,
+                    "layout_marginBottom": 0,
+                    "text": "name:",
+                    "textSize": 10,
+                    "placeHolderText": "name:",
+                    "placeHolderTextColor": "",
+                    "numberOfLines": 1,
+                    "textColor": "#000000",
+                    "style": "",
+                    "textStyle": "bold",
+                    "textAlignment": "center",
+                    "centerY": "_parent",
+                    "src": "",
+                    "keyboardType": "textfield",
+                    "background": "",
+                    "scroll": "",
+                    "selectable": "",
+                    "cornerRadius": [0, 0, 0, 0]
+                  },
+                  "bindingKey": "test"
+                },
+                "icon": "FaMoneyCheck",
+                "group": "Form",
+                "type": "sidebarItem",
+                "updatedAt": "23-Aug-2021",
+                "createdAt": "23-Aug-2021",
+                "order": 1,
+                "version": "1.0.0",
+                "isLatest": true,
+                "projectType": "mobile",
+                "component": {
+                  "content": "Input Text View",
+                  "type": "INPUTTEXTVIEW"
+                },
+                "path": "0-0-0-0"
+              },
+              {
+                "id": "_Ef6AVhZW_5HAwRFMWTaN",
+                "status": "ACTIVE",
+                "_id": "61dec753077814a0f374d9f6",
+                "name": "Button",
+                "attributes": {
+                  "name": "Button",
+                  "layoutProperties": {
+                    "layout_width": "match_parent",
+                    "layout_height": "40",
+                    "text": "Start Now",
+                    "textSize": 10,
+                    "textColor": "#000000",
+                    "textStyle": "bold",
+                    "textAlignment": "center",
+                    "cornerRadius": [0, 0, 0, 0],
+                    "background": "#9BB93B",
+                    "clickable": true
+                  },
+                  "bindingKey": "test"
+                },
+                "icon": "FaBimobject",
+                "group": "Form",
+                "type": "sidebarItem",
+                "updatedAt": "23-Aug-2021",
+                "createdAt": "23-Aug-2021",
+                "order": 20,
+                "version": "1.0.0",
+                "isLatest": true,
+                "projectType": "mobile",
+                "component": { "content": "Button", "type": "BUTTON" },
+                "events": [],
+                "path": "0-0-0-1"
+              }
+            ],
+            "attributes": {
+              "componentId": [],
+              "layoutProperties": {
+                "layout_height": "100",
+                "layout_width": "match_parent",
+                "clickable": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "subType": "component",
     "projectId": "6503e5cfca6ccf1bac74f2c5",
+    "version": "1.0.0",
     "gitBranchName": "master",
-    "_id": "HKWoll1PJpmZnUthNxzWS",
-    "createdBy": "unify",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "jkFm-k7AZaKrkXV0c5WNm",
-    "status": "ACTIVE",
-    "name": "Text view",
+    "id": "uvCXEbC29hnadW6CYa3XH",
+    "name": "GLIST",
+    "path": "0-0-0",
+    "type": "GLISTITEM",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00",
+    "gridProps": [
+      {
+        "id": "Z_nsS9-54oo6vPOdyvK8E",
+        "status": "ACTIVE",
+        "_id": "61ded1e9077814a0f374da06",
+        "name": "Input Text View",
+        "attributes": {
+          "name": "Input Text View",
+          "layoutProperties": {
+            "layout_width": "100",
+            "layout_height": "40",
+            "layout_marginLeft": 0,
+            "layout_marginRight": 0,
+            "layout_marginTop": 0,
+            "layout_marginBottom": 0,
+            "text": "name:",
+            "textSize": 10,
+            "placeHolderText": "name:",
+            "placeHolderTextColor": "",
+            "numberOfLines": 1,
+            "textColor": "#000000",
+            "style": "",
+            "textStyle": "bold",
+            "textAlignment": "center",
+            "centerY": "_parent",
+            "src": "",
+            "keyboardType": "textfield",
+            "background": "",
+            "scroll": "",
+            "selectable": "",
+            "cornerRadius": [0, 0, 0, 0]
+          },
+          "bindingKey": "test"
+        },
+        "icon": "FaMoneyCheck",
+        "group": "Form",
+        "type": "sidebarItem",
+        "updatedAt": "23-Aug-2021",
+        "createdAt": "23-Aug-2021",
+        "order": 1,
+        "version": "1.0.0",
+        "isLatest": true,
+        "projectType": "mobile",
+        "component": { "content": "Input Text View", "type": "INPUTTEXTVIEW" },
+        "path": "0-0-0-0"
+      },
+      {
+        "id": "_Ef6AVhZW_5HAwRFMWTaN",
+        "status": "ACTIVE",
+        "_id": "61dec753077814a0f374d9f6",
+        "name": "Button",
+        "attributes": {
+          "name": "Button",
+          "layoutProperties": {
+            "layout_width": "match_parent",
+            "layout_height": "40",
+            "text": "Start Now",
+            "textSize": 10,
+            "textColor": "#000000",
+            "textStyle": "bold",
+            "textAlignment": "center",
+            "cornerRadius": [0, 0, 0, 0],
+            "background": "#9BB93B",
+            "clickable": true
+          },
+          "bindingKey": "test"
+        },
+        "icon": "FaBimobject",
+        "group": "Form",
+        "type": "sidebarItem",
+        "updatedAt": "23-Aug-2021",
+        "createdAt": "23-Aug-2021",
+        "order": 20,
+        "version": "1.0.0",
+        "isLatest": true,
+        "projectType": "mobile",
+        "component": { "content": "Button", "type": "BUTTON" },
+        "events": [],
+        "path": "0-0-0-1"
+      }
+    ],
     "attributes": {
-      "name": "Text view",
+      "componentId": ["Z_nsS9-54oo6vPOdyvK8E", "_Ef6AVhZW_5HAwRFMWTaN"],
       "layoutProperties": {
-        "textSize": 18,
+        "layout_height": "100",
         "layout_width": "match_parent",
-        "layout_height": "60",
-        "textColor": "#000000",
-        "text": "Start Now",
-        "cornerRadius": [0, 0, 0, 0]
+        "clickable": true
       }
     },
-    "icon": "FaTextWidth",
+    "layout": [
+      {
+        "id": "uvCXEbC29hnadW6CYa3XH",
+        "name": "GLIST",
+        "path": "0-0-0",
+        "type": "GLISTITEM",
+        "updatedTimestamp": "0000-00-00T00:00:00+00:00",
+        "gridProps": [
+          {
+            "id": "Z_nsS9-54oo6vPOdyvK8E",
+            "status": "ACTIVE",
+            "_id": "61ded1e9077814a0f374da06",
+            "name": "Input Text View",
+            "attributes": {
+              "name": "Input Text View",
+              "layoutProperties": {
+                "layout_width": "100",
+                "layout_height": "40",
+                "layout_marginLeft": 0,
+                "layout_marginRight": 0,
+                "layout_marginTop": 0,
+                "layout_marginBottom": 0,
+                "text": "name:",
+                "textSize": 10,
+                "placeHolderText": "name:",
+                "placeHolderTextColor": "",
+                "numberOfLines": 1,
+                "textColor": "#000000",
+                "style": "",
+                "textStyle": "bold",
+                "textAlignment": "center",
+                "centerY": "_parent",
+                "src": "",
+                "keyboardType": "textfield",
+                "background": "",
+                "scroll": "",
+                "selectable": "",
+                "cornerRadius": [0, 0, 0, 0]
+              },
+              "bindingKey": "test"
+            },
+            "icon": "FaMoneyCheck",
+            "group": "Form",
+            "type": "sidebarItem",
+            "updatedAt": "23-Aug-2021",
+            "createdAt": "23-Aug-2021",
+            "order": 1,
+            "version": "1.0.0",
+            "isLatest": true,
+            "projectType": "mobile",
+            "component": {
+              "content": "Input Text View",
+              "type": "INPUTTEXTVIEW"
+            },
+            "path": "0-0-0-0"
+          },
+          {
+            "id": "_Ef6AVhZW_5HAwRFMWTaN",
+            "status": "ACTIVE",
+            "_id": "61dec753077814a0f374d9f6",
+            "name": "Button",
+            "attributes": {
+              "name": "Button",
+              "layoutProperties": {
+                "layout_width": "match_parent",
+                "layout_height": "40",
+                "text": "Start Now",
+                "textSize": 10,
+                "textColor": "#000000",
+                "textStyle": "bold",
+                "textAlignment": "center",
+                "cornerRadius": [0, 0, 0, 0],
+                "background": "#9BB93B",
+                "clickable": true
+              },
+              "bindingKey": "test"
+            },
+            "icon": "FaBimobject",
+            "group": "Form",
+            "type": "sidebarItem",
+            "updatedAt": "23-Aug-2021",
+            "createdAt": "23-Aug-2021",
+            "order": 20,
+            "version": "1.0.0",
+            "isLatest": true,
+            "projectType": "mobile",
+            "component": { "content": "Button", "type": "BUTTON" },
+            "events": [],
+            "path": "0-0-0-1"
+          }
+        ],
+        "attributes": {
+          "componentId": [],
+          "layoutProperties": {
+            "layout_height": "100",
+            "layout_width": "match_parent",
+            "clickable": true
+          }
+        }
+      }
+    ],
+    "subType": "component",
+    "projectId": "6503e5cfca6ccf1bac74f2c5",
+    "version": "1.0.0",
+    "gitBranchName": "master"
+  },
+  {
+    "id": "Z_nsS9-54oo6vPOdyvK8E",
+    "status": "ACTIVE",
+    "name": "Input Text View",
+    "attributes": {
+      "name": "Input Text View",
+      "layoutProperties": {
+        "layout_width": "100",
+        "layout_height": "40",
+        "layout_marginLeft": 0,
+        "layout_marginRight": 0,
+        "layout_marginTop": 0,
+        "layout_marginBottom": 0,
+        "text": "name:",
+        "textSize": 10,
+        "placeHolderText": "name:",
+        "placeHolderTextColor": "",
+        "numberOfLines": 1,
+        "textColor": "#000000",
+        "style": "",
+        "textStyle": "bold",
+        "textAlignment": "center",
+        "centerY": "_parent",
+        "src": "",
+        "keyboardType": "textfield",
+        "background": "",
+        "scroll": "",
+        "selectable": "",
+        "cornerRadius": [0, 0, 0, 0]
+      },
+      "bindingKey": "test"
+    },
+    "icon": "FaMoneyCheck",
     "group": "Form",
-    "type": "TEXTVIEW",
+    "type": "INPUTTEXTVIEW",
     "updatedAt": "23-Aug-2021",
     "createdAt": "23-Aug-2021",
-    "order": 20,
+    "order": 1,
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "mobile",
     "subType": "component",
-    "component": { "content": "Text view", "type": "TEXTVIEW" },
-    "events": [],
-    "path": "0-0",
+    "component": { "content": "Input Text View", "type": "INPUTTEXTVIEW" },
+    "path": "0-0-0-0",
     "projectId": "6503e5cfca6ccf1bac74f2c5",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "8G7TLtreBChLS2MB3N0L-",
+    "id": "_Ef6AVhZW_5HAwRFMWTaN",
     "status": "ACTIVE",
     "name": "Button",
     "attributes": {
@@ -245,7 +837,8 @@
         "cornerRadius": [0, 0, 0, 0],
         "background": "#9BB93B",
         "clickable": true
-      }
+      },
+      "bindingKey": "test"
     },
     "icon": "FaBimobject",
     "group": "Form",
@@ -259,7 +852,7 @@
     "subType": "component",
     "component": { "content": "Button", "type": "BUTTON" },
     "events": [],
-    "path": "0-1",
+    "path": "0-0-0-1",
     "projectId": "6503e5cfca6ccf1bac74f2c5",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"

@@ -1,0 +1,34 @@
+{
+  "id": "fR_koqcOacfdQJFakqupw",
+  "projectId": "6503e5cfca6ccf1bac74f2c5",
+  "name": "test",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "NETWORK",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "serviceName": "POST",
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "url": "https://www.google.com ",
+          "responseStateKey": "test"
+        },
+        "returns": []
+      }
+    }
+  ],
+  "gitBranchName": "master",
+  "csrf": "0.owrkcwu70zqyIwTw1OiPqpXVaTLb-Dw",
+  "_id": "E9crkCIpmSMUoJZlqRPgx",
+  "updatedAt": "9/20/2023",
+  "createdAt": "9/20/2023",
+  "createdBy": "unify",
+  "updatedBy": "unify"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "PLBvBrjfgw3ZL4YsPI8_o",
+  "name": "Dp",
+  "projectId": "6503e5cfca6ccf1bac74f2c5",
+  "services": [
+    {
+      "type": "NAVIGATION",
+      "command": {
+        "type": "4",
+        "attributes": {
+          "serviceName": " Date picker",
+          "bindingKey": "test",
+          "dateFormat": "mm-dd-yyyy",
+          "minimumDate": "1",
+          "maximumDate": "31"
+        }
+      }
+    }
+  ],
+  "gitBranchName": "master",
+  "csrf": "0.owrkcwu70zqyIwTw1OiPqpXVaTLb-Dw",
+  "_id": "uzurHlqvvU9iFgaY1el2c",
+  "updatedAt": "9/20/2023",
+  "createdAt": "9/20/2023",
+  "createdBy": "unify",
+  "updatedBy": "unify"
+}
